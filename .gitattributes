@@ -1,5 +1,6 @@
+# Forzar GitHub a reconocer Dart como el lenguaje principal
 *.dart linguist-language=Dart
-*.h linguist-language=C++
-*.m linguist-language=Objective-C
-*.mm linguist-language=Objective-C++
-*.swift linguist-language=Swift
+
+# Ignorar archivos generados de la plataforma
+android/** linguist-vendored
+ios/** linguist-vendored
